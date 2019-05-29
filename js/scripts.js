@@ -1,18 +1,26 @@
 $(document).ready(function() {
   $("#blanks form").submit(function(event) {
-    var person1Input = $("input#person1").val();
-    var person2Input = $("input#person2").val();
-    var animalInput= $("input#animal").val();
-    var exclamationInput = $("input#exclamation").val();
-    var verbInput = $("input#verb").val();
-    var nounInput = $("input#noun").val();
+    var nameInput = $("input#name").val();
+    var petNameInput = $("input#petName").val();
+    var activity1Input= $("input#activity1").val();
+    var activity2Input = $("input#activity2").val();
+    var hoursInput = $("input#hours").val();
+    var yearsInput = $("input#years").val();
+    var emotionInput = $("input#emotion").val();
+    var petInput = $("input#pet").val();
+    var medicalConditionInput = $("input#medicalCondition").val();
+    var tvShowInput = $("input#tvShow").val();
 
-    $(".person1").text(person1Input);
-    $(".person2").text(person2Input);
-    $(".animal").text(animalInput);
-    $(".exclamation").text(exclamationInput);
-    $(".verb").text(verbInput);
-    $(".noun").text(nounInput);
+    $(".name").text(nameInput);
+    $(".petName").text(petNameInput);
+    $(".activity1").text(activity1Input);
+    $(".activity2").text(activity2Input);
+    $(".hours").text(hoursInput);
+    $(".years").text(yearsInput);
+    $(".emotion").text(emotionInput);
+    $(".pet").text(petInput);
+    $(".medicalCondition").text(medicalConditionInput);
+    $(".tvShow").text(tvShowInput);
 
     $("#story").show();
 
